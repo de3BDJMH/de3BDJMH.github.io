@@ -95,8 +95,8 @@
 	</div>
 	<div class="kira-count">
 		<div><span>文章</span>35</div>
-		<div><span>标签</span>11</div>
-		<div><span>分类</span>9</div>
+		<div><span>标签</span>13</div>
+		<div><span>分类</span>4</div>
 	</div>
 	<div class="kira-list">
 		
@@ -249,31 +249,10 @@
           </li>
         
           <li class="category-list-item">
-            <a class="category-list-link" href="/categories/Arcaea/音游/成就/">
-              成就
-            </a>
-            <span class="category-list-count">2</span>
-          </li>
-        
-          <li class="category-list-item">
-            <a class="category-list-link" href="/categories/Arcaea/音游/成就/教程/">
-              教程
-            </a>
-            <span class="category-list-count">1</span>
-          </li>
-        
-          <li class="category-list-item">
             <a class="category-list-link" href="/categories/设计/">
               设计
             </a>
             <span class="category-list-count">1</span>
-          </li>
-        
-          <li class="category-list-item">
-            <a class="category-list-link" href="/categories/Arcaea/音游/">
-              音游
-            </a>
-            <span class="category-list-count">2</span>
           </li>
         
       </ul>
@@ -284,7 +263,7 @@
 			
 	<div class="kira-widget-wrap">
 		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
-			<a href="/tags/AP/" style="font-size: 17.5px;">AP</a> <a href="/tags/Arcaea/" style="font-size: 10px;">Arcaea</a> <a href="/tags/FC/" style="font-size: 10px;">FC</a> <a href="/tags/Phigros/" style="font-size: 20px;">Phigros</a> <a href="/tags/%E5%85%A5%E5%9D%91/" style="font-size: 12.5px;">入坑</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 10px;">头像</a> <a href="/tags/%E6%80%A7/" style="font-size: 10px;">性</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">技术</a> <a href="/tags/%E7%BB%98%E7%94%BB/" style="font-size: 10px;">绘画</a> <a href="/tags/%E8%A7%A3%E9%94%81/" style="font-size: 15px;">解锁</a> <a href="/tags/%E9%9F%B3%E6%B8%B8/" style="font-size: 20px;">音游</a>
+			<a href="/tags/AP/" style="font-size: 18px;">AP</a> <a href="/tags/Arcaea/" style="font-size: 10px;">Arcaea</a> <a href="/tags/FC/" style="font-size: 10px;">FC</a> <a href="/tags/Phigros/" style="font-size: 20px;">Phigros</a> <a href="/tags/%E5%85%A5%E5%9D%91/" style="font-size: 12px;">入坑</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 10px;">头像</a> <a href="/tags/%E6%80%A7/" style="font-size: 10px;">性</a> <a href="/tags/%E6%88%90%E5%B0%B1/" style="font-size: 16px;">成就</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">技术</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a> <a href="/tags/%E7%BB%98%E7%94%BB/" style="font-size: 10px;">绘画</a> <a href="/tags/%E8%A7%A3%E9%94%81/" style="font-size: 14px;">解锁</a> <a href="/tags/%E9%9F%B3%E6%B8%B8/" style="font-size: 20px;">音游</a>
 		</div>
 		
 	</div>
@@ -384,7 +363,19 @@
 			<a><i class="kirafont icon-edit-fill"></i>2.1k 字</a>
 			<a><i class="kirafont icon-time-circle-fill"></i>大概 8 分钟</a>
 		</div>
-		<h1><span id="第一部分系统的需求分析">第一部分：系统的需求分析</span></h1><p>学生考勤系统的目的是为了方便高校对学生的出勤情况进行管理和监督，提高教学质量和学风建设，同时也为学生提供在线请假和查看考勤记录的功能。根据不同的用户角色，系统的需求分析可以分为以下几个方面：</p>
+		<!-- toc -->
+
+<ul>
+<li><a href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90">第一部分：系统的需求分析</a></li>
+<li><a href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86%E7%B3%BB%E7%BB%9F%E6%A1%86%E5%9B%BE%E5%92%8C%E5%BF%85%E8%A6%81%E7%9A%84%E8%A7%A3%E9%87%8A">第二部分：系统框图和必要的解释</a><ul>
+<li><a href="#%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2">用户界面</a></li>
+<li><a href="#%E4%B8%9A%E5%8A%A1%E9%80%BB%E8%BE%91%E5%B1%82">业务逻辑层</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<h1><span id="第一部分系统的需求分析">第一部分：系统的需求分析</span></h1><p>学生考勤系统的目的是为了方便高校对学生的出勤情况进行管理和监督，提高教学质量和学风建设，同时也为学生提供在线请假和查看考勤记录的功能。根据不同的用户角色，系统的需求分析可以分为以下几个方面：</p>
 <ul>
 <li><strong>学生用户</strong>：学生用户的主要需求是能够通过系统进行在线签到在线请假，以及查看自己的考勤记录和统计信息。在线请假需求包括填写请假申请表，选择请假类型（如病假、事假等），选择请假时间段，上传请假证明（如医院证明、家长同意书等），以及查看请假审批状态和结果。查看考勤记录和统计信息需求包括查看自己在不同的课程、活动、会议等中的出勤情况，以及查看自己的考勤分数和排名。此外，学生用户还应该能够查看和修改自己的基本信息，如姓名、学号、班级、专业、联系方式等，以及修改自己的登录密码。</li>
 <li><strong>教师用户</strong>：教师用户的主要需求是能够通过系统进行学生的考勤管理和查询。考勤管理需求包括设置自己所教授的课程的考勤规则，如考勤方式（如刷卡、点名、人脸识别等），考勤时间（如上课前、上课中、上课后等），考勤分数（如出勤、迟到、早退、缺勤等的分值），以及考勤异常处理（如请假、补签等的条件和流程）。考勤查询需求包括查看自己所教授的课程的学生的考勤记录和统计信息，如出勤率、缺勤率、迟到率、早退率等，以及查看学生的考勤分数和排名。此外，教师用户还应该能够审批学生的请假申请，以及查看和修改自己的基本信息和登录密码。</li>
@@ -433,7 +424,7 @@
   
 	<div class="kira-post-nav">
 		<nav class="post-nav">
-			                                  
+			              
 			<!-- 先找到与当前文字相同的目录 -->
 			   
 			<!-- 在找到当前文章所在的 index -->
