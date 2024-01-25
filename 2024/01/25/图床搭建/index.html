@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/css/layout.css">
 
 		
-		<title> 今日AP#2022.7.16 -  無限</title>
+		<title> 图床搭建心得 -  無限</title>
 		<!-- <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" /> -->
 		<!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
 		
@@ -355,33 +355,86 @@
 <div class="kira-post">
 	<article>
 		
-		<div class="kira-post-cover">
+		<div
+			class="kira-post-cover"
+			style="padding-bottom: '56.25%'"
+		>
 			<img
-				data-src="post_pic/phigros_dna_ap_ez.png"
+				data-src="hexo_bg.png"
 				data-sizes="auto"
-				alt="今日AP#2022.7.16"
+				alt="图床搭建心得"
 				class="lazyload kira-post-cover-image disabled-kira-image"
 			/>
-			<h1>今日AP#2022.7.16</h1>
+			<h1>图床搭建心得</h1>
 		</div>
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
-			<a><i class="kirafont icon-calendar-fill"></i>2022年07月16日</a>
-			<a><i class="kirafont icon-edit-fill"></i>19 字</a>
-			<a><i class="kirafont icon-time-circle-fill"></i>大概 1 分钟</a>
+			<a><i class="kirafont icon-calendar-fill"></i>2024年01月25日</a>
+			<a><i class="kirafont icon-edit-fill"></i>934 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 3 分钟</a>
 		</div>
-		<h2><span id="don96t-never-around-ez4-ap">Don&#96;t Never Around EZ4 AP</span></h2><p><img src="/post_pic/phigros_dna_ap_ez.png" title="EZ AP 2022.7.16 11:45"></p>
-<h2><span id="burn-ez4-ap">Burn EZ4 AP</span></h2><p><img src="/post_pic/phigros_burn_ap_ez.png" title="EZ AP 2022.7.16 17:59"></p>
-<ul>
-<li><em>本贴实际发于2024.1.24</em></li>
-</ul>
+		<p>最后一条给的链接是教程，心累，头痛，想睡觉呜呜呜</p>
+<span id="more"></span>
 
+<!-- toc -->
+
+<ul>
+<li><a href="#%E5%9B%BE%E5%BA%8A%E5%A4%84%E7%90%86%E5%BF%83%E5%BE%97">图床处理心得</a><ul>
+<li><a href="#1%E5%AF%BB%E6%89%BE%E5%9B%BD%E5%86%85%E5%8A%A0%E9%80%9F%E7%BD%91%E7%AB%99">1.寻找国内加速网站</a></li>
+<li><a href="#2%E5%B0%9D%E8%AF%95%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A">2.尝试搭建图床</a></li>
+<li><a href="#%E5%B0%B1%E5%BF%AB%E6%88%90%E5%8A%9F%E4%BA%86">就快成功了！</a></li>
+<li><a href="#%E6%88%90%E5%8A%9F%E4%BA%86">成功了！</a><ul>
+<li><a href="#%E9%82%A3%E8%BF%99%E7%AF%87%E6%96%87%E7%AB%A0%E5%B0%B1%E8%BF%99%E4%B9%88%E8%8D%89%E8%8D%89%E7%9A%84%E7%BB%93%E6%9D%9F%E4%BA%86%E5%90%A7qwq%E4%B9%9F%E7%AE%97%E5%8D%8A%E4%B8%AA%E6%95%99%E7%A8%8B%E4%BA%86%E4%B8%8D%E8%AF%B4%E4%BA%86%E7%BB%A7%E7%BB%AD%E8%B5%B6%E6%96%87%E7%AB%A0%E8%BF%98%E6%9C%89%E4%B8%A4%E5%B9%B4%E7%9A%84%E8%A6%81%E8%A1%A5%E4%B8%8A">那这篇文章就这么草草的结束了吧qwq，也算半个教程了，不说了，继续赶文章，还有两年的要补上…😭😭😭</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<h1><span id="图床处理心得">图床处理心得</span></h1><p>前几天自己做了一个个人网站，还挺顺利的，往上面放图片放音乐放视频都还算可以，唯一美中不足的地方就是网站是部署在GitHub上的，访问很慢，然后开始了这段头疼的经历…</p>
+<h2><span id="1寻找国内加速网站">1.寻找国内加速网站</span></h2><ul>
+<li><p>我也不知道叫啥，什么cdn乱七八糟的我完全听不懂，然后看到一条评论，说他把GitHub Page和Cloudflare结合了一下，访问速度还可以</p>
+</li>
+<li><p>我便开始了尝试，由于B站上有关的教程都比较老，所以我还得自己摸索，折腾了一会之后总算弄出来和<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV18y4y1G76B/?share_source=copy_web&vd_source=714522cdd5080e217971e5433f0d34c5">视频</a>里差不多的东西</p>
+</li>
+<li><p>怎么可能一帆风顺，经典报错<br><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA1.png"></p>
+</li>
+<li><p>一开始懒得看英文报错，复制下来网上到处找，<del>虽然最后还是滚回来认真读了一遍报错</del>，可恶，居然是文件太大了，但是我又不想放弃在文章里插入视频，我觉得这很有纪念意义</p>
+</li>
+<li><p>继续折腾…尝试了各种方法，变着法子插入视频，网上所有办法我几乎都试了，还是不行…这时候问题的重点就从怎么访问快变成怎么在文章里正常播放视频了QAQ</p>
+</li>
+<li><p>然后在找方法的时候注意到了我以前不懂的名词——图床，这次算是理解了，是放图片的一个地方，写MD文件的时候可以很方便的引用，我就产生了能不能把视频也放上去的想法</p>
+</li>
+</ul>
+<h2><span id="2尝试搭建图床">2.尝试搭建图床</span></h2><ul>
+<li>B站上一搜，和图床有关的视频还真不少，找了一个舒服的就上手了，最开始尝试的是七牛云，怎么说呢，看到视频上传成功并且产生链接的那一瞬间我真的很兴奋，我很快将文章里的视频链接改成那个了，然后重启了网站…<br><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA5.png"></li>
+</ul>
+<p><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA2.png"></p>
+<p><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA3.png"></p>
+<p><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA4.png"></p>
+<ul>
+<li>和同学讨论了一下…甚至产生了购买域名还有SSL证书的想法😅</li>
+<li>毕竟还是缺钱，我决定再找找方法，实在没法子了再来弄这玩意，主要域名什么的这东西我也第一次搞，怕弄不好钱打水漂了…</li>
+<li>尝试了很多图床网站之后，群友给出了一个方法<br><img src="/post_pic%5C%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA6.png"></li>
+</ul>
+<p>于是我把矛头转向了知乎</p>
+<h2><span id="就快成功了">就快成功了！</span></h2><ul>
+<li><p>不得不说，知乎上好东西真的多，我一开始没敢乱发图片，怕破坏环境，然后就抱着尝试的心态在知乎上搜索了一下图床，有这样一条<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/405759024">帖子</a>吸引了我的注意</p>
+</li>
+<li><p>哎哟，这不错嘛，我也试了一下，不过还是很可惜啊，图片都是能正常产生链接的，但是视频就不行了，没办法，只能继续找了</p>
+</li>
+</ul>
+<h2><span id="成功了">成功了！</span></h2><ul>
+<li>继续找教程，找到了<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/530824958">这个</a>！在极狐上还是很顺利的，视频终于能用链接放出来了！现在唯一担心的就是我注册极狐账号时候写着试用90天，有点怕到时候我的图床会不会用不了了…😰😰😰</li>
+</ul>
+<h3><span id="那这篇文章就这么草草的结束了吧qwq也算半个教程了不说了继续赶文章还有两年的要补上">那这篇文章就这么草草的结束了吧qwq，也算半个教程了，不说了，继续赶文章，还有两年的要补上…😭😭😭</span></h3>
 	</article>
 
 	 
     <div class="kira-post-copyright">
         <strong>本文作者：</strong>de3BDJMH<br>
-        <strong>本文链接：</strong><a href="https://de3bdjmh.github.io/2022/07/16/phigros-2022-7-16/" title="https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2022&#x2F;07&#x2F;16&#x2F;phigros-2022-7-16&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2022&#x2F;07&#x2F;16&#x2F;phigros-2022-7-16&#x2F;</a><br>
+        <strong>本文链接：</strong><a href="https://de3bdjmh.github.io/2024/01/25/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/" title="https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2024&#x2F;01&#x2F;25&#x2F;图床搭建&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2024&#x2F;01&#x2F;25&#x2F;图床搭建&#x2F;</a><br>
         
             <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
         
@@ -390,32 +443,26 @@
   
 	<div class="kira-post-nav">
 		<nav class="post-nav">
-			      
+			                  
 			<!-- 先找到与当前文字相同的目录 -->
-			                                                                                       
+			      
 			<!-- 在找到当前文章所在的 index -->
-			                                                                                                                
+			    
 			<!-- 上一篇文章 -->
 			<div class="old">
 				<span>上一章</span>
-				<a href="/2022/07/15/phigros-2022-7-15/"> 今日AP#2022.7.15</a>
+				<a href="/2022/07/07/%E5%87%86%E5%A4%87%E9%AB%98%E4%B8%89/"> 庆元旦!</a>
 			</div>
-			       
-			<!-- 下一篇文章 -->
-			<div class="new">
-				<span>下一章</span>
-				<a href="/2022/07/19/phigros-2022-7-19/"> 重生...重生...</a>
-			</div>
-			                      
+			          
 		</nav>
 	</div>
 	
 	<div class="kira-post-meta kira-rainbow">
 		
-			<a class="kirafont icon-container-fill -link" href="/categories/Phigros/">Phigros</a>
+			<a class="kirafont icon-container-fill -link" href="/categories/%E7%94%9F%E6%B4%BB/">生活</a>
 		
 		
-			<a class="kirafont icon-tag-fill -none-link" href="/tags/AP/" rel="tag">AP</a> <a class="kirafont icon-tag-fill -none-link" href="/tags/Phigros/" rel="tag">Phigros</a> <a class="kirafont icon-tag-fill -none-link" href="/tags/%E9%9F%B3%E6%B8%B8/" rel="tag">音游</a>
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/%E5%9B%BE%E5%BA%8A/" rel="tag">图床</a> <a class="kirafont icon-tag-fill -none-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a>
 		
 	</div>
 	
