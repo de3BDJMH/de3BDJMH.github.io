@@ -366,7 +366,7 @@
 		
 		<div class="kira-post-cover">
 			<img
-				data-src="test.png"
+				data-src="https://github.com/de3BDJMH/de3BDJMH.github.io/blob/master/post_pic/test.png?raw=true"
 				data-sizes="auto"
 				alt="文章标题图片测试"
 				class="lazyload kira-post-cover-image disabled-kira-image"
@@ -376,7 +376,7 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2026年04月07日</a>
-			<a><i class="kirafont icon-edit-fill"></i>404 字</a>
+			<a><i class="kirafont icon-edit-fill"></i>442 字</a>
 			<a><i class="kirafont icon-time-circle-fill"></i>大概 1 分钟</a>
 		</div>
 		<h2><span id="测试结果">测试结果</span></h2><p>需要开启 <code>_config.yml</code> 下的 <code>post_asset_folder</code> ，也就是改为 <code>true</code></p>
@@ -384,13 +384,15 @@
 <h3><span id="方法二使用本地资源">方法二：使用本地资源</span></h3><p>对于每篇文章，它的标题可以分为两种：</p>
 <ul>
 <li>主页上显示的</li>
-<li>非主页显示的（包括翻页、点开文章、归档等）</li>
+<li>非主页显示的（包括翻页、归档等）</li>
+<li>进入文章显示的</li>
 </ul>
 <p>对于第一种，它用途非常少，只有文章位于第一页时候他才会用到，这时候图片资源需要存放在最外层文件夹，也就是<code>/source</code>里</p>
-<p>对于其他位置的头图，将其放入生成文章时产生的对应的文件夹中即可，例如你发布了一篇标题叫 <code>test</code> 的文章，在开启本文开头所属选项后，会生成两个文件：<code>test.md</code>文件 和 <code>/test</code>文件夹，图片放入后者即可</p>
+<p>对于第三种位置的头图，将其放入生成文章时产生的对应的文件夹中即可，例如你发布了一篇标题叫 <code>test</code> 的文章，在开启本文开头所属选项后，会生成两个文件：<code>test.md</code>文件 和 <code>/test</code>文件夹，图片放入后者即可</p>
+<p>第二种…还不知道怎么弄，似乎不会生成对应文件</p>
 <h2><span id="感悟">感悟</span></h2><p>个人认为是主题作者开发的失误，这样会多占用一部分资源，不过后来就想到了可以有以下玩法：</p>
 <p>可以利用该特性实现首页文章内外头图不同（这个有点拉跨，毕竟只有首页能用）<br>也可以利用该特性实现文章内背景（是的，每篇文章你还需要往里面扔一张背景图…）自定义，这个就挺不错的了<br><em>本文就利用了该特性，好玩！</em></p>
-<p>最大问题就是占用资源并且写作时操作繁琐</p>
+<p>最大问题就是占用资源并且写作时操作繁琐<br>实在不行，封面图单独弄个图床吧…</p>
 <p>不过这些你们都看不见啦，就难受难受我自己了呜呜…</p>
 
 	</article>
