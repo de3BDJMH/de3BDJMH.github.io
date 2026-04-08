@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html 
+	lang="zh_CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+<link rel="stylesheet" href="/css/layout.css">
+
+		
+		<title> 个人网站修复 -  無限</title>
+		<!-- <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" /> -->
+		<!-- <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script> -->
+		
+<link rel="stylesheet" href="/lib/mdui/mdui.min.css">
+
+		
+<script src="/lib/mdui/mdui.min.js"></script>
+
+		<!-- lazyload -->
+		
+<script src="/lib/lazysizes.js"></script>
+
+		<!-- smooth-scrolling -->
+		
+<script src="/lib/smooth-scrolling.js"></script>
+
+		<!-- highlight -->
+		
+<link rel="stylesheet" href="/lib/highlight/atom-one-dark.min.css">
+
+		
+<script src="/lib/highlight/highlight.min.js"></script>
+
+		<!-- 预置 kiraicon -->
+		
+<link rel="stylesheet" href="/lib/iconfont/iconfont.css">
+
+		
+			<link rel="stylesheet" href="//at.alicdn.com/t/c/font_5154955_7bn7vci865d.css" crossorigin />
+		
+		<link
+			rel="shortcut icon"
+			href="https://avatars.githubusercontent.com/u/102044177?v=4"
+			type="image/png"
+		/>
+		
+<link rel="stylesheet" href="/deps/css/APlayer.min.css">
+
+		
+			
+				
+<link rel="stylesheet" href="/style.css">
+
+			
+				
+<link rel="stylesheet" href="/custom.css">
+
+			
+		
+		
+<script src="/deps/js/APlayer.min.js"></script>
+<script src="/deps/js/Meting.min.js"></script>
+
+	<meta name="generator" content="Hexo 6.3.0"></head>
+
+	<body>
+		<div
+			class="kira-background"
+			style="background-image: url('hexo_bg.png')"
+		></div>
+		<div class="kira-header">
+    <a
+        class="kira-drawer-button mdui-ripple"
+        title="导航栏"
+        onclick="document.querySelector('.kira-sidebar-modal').classList.add('show');document.querySelector('.kira-sidebar#sidebar').classList.add('show');"
+    >
+        <i class="kirafont icon-menu"></i>
+    </a>
+    <a href="/" title="無限">
+        <img
+			src="https://avatars.githubusercontent.com/u/102044177?v=4"
+			alt="de3BDJMH"
+		/>
+    </a>
+</div>
+		<div class="kira-body">
+			<div class="kira-sidebar" id="sidebar">
+	<div class="kira-avatar mdui-ripple">
+		<a target="_blank" rel="noopener" href="https://avatars.githubusercontent.com/u/102044177?v=4" title="de3BDJMH">
+			<img
+				src="https://avatars.githubusercontent.com/u/102044177?v=4"
+				alt="de3BDJMH"
+			/>
+		</a>
+	</div>
+	<div class="kira-count">
+		<div><span>文章</span>13</div>
+		<div><span>标签</span>16</div>
+		<div><span>分类</span>7</div>
+	</div>
+	<div class="kira-list">
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/"
+			title="回到首页"
+		>
+			<i
+				class="kirafont
+					
+						icon-home
+					"
+			></i>
+			<div class="kira-list-item-content">
+				回到首页
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/archive.html"
+			title="文章归档"
+		>
+			<i
+				class="kirafont
+					
+						icon-container
+					"
+			></i>
+			<div class="kira-list-item-content">
+				文章归档
+			</div>
+		</a>
+		
+		<a
+			class="kira-list-item mdui-ripple false"
+			href="/about.html"
+			title="关于本人"
+		>
+			<i
+				class="kirafont
+					
+						icon-user
+					"
+			></i>
+			<div class="kira-list-item-content">
+				关于本人
+			</div>
+		</a>
+		
+	</div>
+	<aside id="kira-sidebar">
+		
+			<div class="kira-widget-wrap">
+	<div class="kira-widget kira-social">
+		
+			<a
+				class="mdui-ripple"
+				href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2404164262&website=www.oicqzone.com"
+				target="_blank"
+				mdui-tooltip="{content: 'QQ'}"
+				style="color: rgb(49, 174, 255); background-color: rgba(49, 174, 255, .1);"
+			>
+				<i
+					class="kirafont
+					
+						icon-QQ
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://space.bilibili.com/2093520767"
+				target="_blank"
+				mdui-tooltip="{content: '哔哩哔哩'}"
+				style="color: rgb(231, 106, 141); background-color: rgba(231, 106, 141, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-bilibili
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://github.com/de3BDJMH/"
+				target="_blank"
+				mdui-tooltip="{content: 'GitHub'}"
+				style="color: rgb(25, 23, 23); background-color: rgba(25, 23, 23, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-github
+					"
+				></i>
+			</a>
+		
+			<a
+				class="mdui-ripple"
+				href="https://osu.ppy.sh/users/35056979"
+				target="_blank"
+				mdui-tooltip="{content: 'osu!'}"
+				style="color: rgb(225, 90, 150); background-color: rgba(225, 90, 150, .15);"
+			>
+				<i
+					class="kirafont
+					
+						icon-osu-black
+					"
+				></i>
+			</a>
+		
+	</div>
+</div>
+
+		
+			
+  <div class="kira-widget-wrap">
+    <h3 class="kira-widget-title">分类</h3>
+    <div class="kira-widget">
+      <ul class="category-list">
+        
+        
+
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/音游/Arcaea/">
+              Arcaea
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/音游/Phigros/">
+              Phigros
+            </a>
+            <span class="category-list-count">4</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/ShiYX/">
+              ShiYX
+            </a>
+            <span class="category-list-count">2</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/技术/">
+              技术
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/生活/">
+              生活
+            </a>
+            <span class="category-list-count">2</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/设计/">
+              设计
+            </a>
+            <span class="category-list-count">1</span>
+          </li>
+        
+          <li class="category-list-item">
+            <a class="category-list-link" href="/categories/音游/">
+              音游
+            </a>
+            <span class="category-list-count">5</span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+		
+			
+	<div class="kira-widget-wrap">
+		<div id="randomtagcloud" class="kira-widget tagcloud kira-rainbow">
+			<a href="/tags/AP/" style="font-size: 10px;">AP</a> <a href="/tags/Arcaea/" style="font-size: 10px;">Arcaea</a> <a href="/tags/Phigros/" style="font-size: 16.67px;">Phigros</a> <a href="/tags/%E5%85%A5%E5%9D%91/" style="font-size: 13.33px;">入坑</a> <a href="/tags/%E5%9B%BE%E5%BA%8A/" style="font-size: 13.33px;">图床</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 10px;">头像</a> <a href="/tags/%E6%88%90%E5%B0%B1/" style="font-size: 13.33px;">成就</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">技术</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 13.33px;">教程</a> <a href="/tags/%E7%BB%98%E7%94%BB/" style="font-size: 10px;">绘画</a> <a href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/" style="font-size: 10px;">网站维护</a> <a href="/tags/%E8%AF%BE%E9%A2%98/" style="font-size: 10px;">课题</a> <a href="/tags/%E9%87%9145/" style="font-size: 10px;">金45</a> <a href="/tags/%E9%9F%B3%E6%B8%B8/" style="font-size: 20px;">音游</a> <a href="/tags/%E9%AB%98%E4%B8%AD/" style="font-size: 10px;">高中</a> <a href="/tags/%E9%AB%98%E8%80%83/" style="font-size: 10px;">高考</a>
+		</div>
+		
+	</div>
+
+
+		
+	</aside>
+	<div class="kira-copyright">
+		&copy; 2026
+		<a href="/">de3BDJMH</a>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> &
+		<a href="https://github.com/ch1ny/kira-hexo/" target="_blank">Kira-Hexo</a>
+		<br />
+		
+		
+	</div>
+</div>
+<div
+	class="kira-sidebar-modal"
+	id="sidebar-modal"
+	onclick="(function(self) {
+		self.classList.remove('show');
+		document.querySelector('.kira-sidebar.show#sidebar').classList.remove('show');
+	})(this)"
+></div>
+			<div class="kira-content">
+				<div id="kira-top-header"></div>
+				<div class="kira-main-content">
+					
+<link rel="stylesheet" href="/css/kira-image.css">
+
+
+<script src="/js/kira-image.js"></script>
+
+<div class="kira-image">
+    <div class="kira-image-modal">
+        <div class="kira-image-header">
+            <div class="kira-image-counter"></div>
+            <div class="kira-image-title"></div>
+            <div class="kira-image-operation">
+                <div class="kira-image-operation-button" id="kira-image-operation-button-zoom">
+                    <i class="kirafont icon-zoom-in"></i>
+                </div>
+                <div class="kira-image-operation-button" id="kira-image-operation-button-close">
+                    <i class="kirafont icon-close"></i>
+                </div>
+            </div>
+        </div>
+        <div class="kira-image-container">
+            <div class="kira-image-prev-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-left"></i>
+                </div>
+            </div>
+            <div class="kira-image-list">
+                <div class="kira-image-prev">
+                    <img />
+                </div>
+                <div class="kira-image-now">
+                    <img />
+                </div>
+                <div class="kira-image-next">
+                    <img />
+                </div>
+            </div>
+            <div class="kira-image-next-button-panel">
+                <div class="kira-image-exchange-button">
+                    <i class="kirafont icon-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+	
+<link rel="stylesheet" href="/css/kira-code-copy.css">
+
+	
+<script src="/js/kira-code-copy.js"></script>
+
+
+<div class="kira-post">
+	<article>
+		
+		<div
+			class="kira-post-cover"
+			style="padding-bottom: '56.25%'"
+		>
+			<img
+				data-src="hexo_bg.png"
+				data-sizes="auto"
+				alt="个人网站修复"
+				class="lazyload kira-post-cover-image disabled-kira-image"
+			/>
+			<h1>个人网站修复</h1>
+		</div>
+		
+		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
+			<a><i class="kirafont icon-calendar-fill"></i>2026年04月08日</a>
+			<a><i class="kirafont icon-edit-fill"></i>1.3k 字</a>
+			<a><i class="kirafont icon-time-circle-fill"></i>大概 6 分钟</a>
+		</div>
+		<html><head></head><body><h2><span id="%E6%8A%98%E8%85%BE%E4%BA%86%E4%B8%80%E5%A4%A9">折腾了一天</span></h2><p>原理：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs 歪比巴布">很简单，就像上一篇说的一样，将source文件夹下的每篇文章的图复制到public它们会出现的所有位置（categories，tags，achieves）<br>复制时候需要注意文件名不要重复（毕竟一页展示时候不会只有一篇文章），所以需要将每张封面命名成不一样的，我这里用的是文章名称<br>另外，背景也需要复制，不过这个背景只需要一份即可，和封面放在一个文件夹下即可，文件名不要改，我这里是hexo_bg<br></code></pre></td></tr></tbody></table></figure>
+
+<p>然后是代码展示qwq，写的很烂…</p>
+<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment">### 大概是主题作者的问题，文章头图在部分分类下显示有问题</span><br><span class="hljs-comment">### 原因是分类后的文章那个文件夹只有index.html，图片没有被复制过去，就导致找不到图显示不了了</span><br><span class="hljs-comment">### 虽然很占用空间，但是我认为本地资源比图床要好，所以本代码是用于复制图片的</span><br><span class="hljs-comment">### 使用方法：</span><br><span class="hljs-comment">###   1. 在hexo/blog文件夹下右键，然后git bash here</span><br><span class="hljs-comment">###   2. 构建：npm run build（最好先clean一下，npm run clean）</span><br><span class="hljs-comment">###   3. 运行该代码</span><br><span class="hljs-comment">###   4. 提交生产环境或预览：npm run deploy 或 npm run server</span><br><span class="hljs-comment">### 小小的要求：</span><br><span class="hljs-comment">###   1. 封面图文件名请用&lt;标题名&gt;.png，不然放在同一个层级下会同名</span><br><span class="hljs-comment">###   2. 背景图文件名请用hexo_bg.png</span><br><span class="hljs-comment">###   3. 均存放至_posts下对应文章文件夹下</span><br><br><span class="hljs-keyword">import</span> os<br><span class="hljs-keyword">import</span> time<br><span class="hljs-keyword">import</span> shutil<br><br>RAW_PATH=<span class="hljs-string">"用你的\source目录！"</span><br>TARGET_PATH=<span class="hljs-string">"用你的\public目录！"</span><br><span class="hljs-comment"># 需要存放至的目标文件夹：archives、categories、tags</span><br><br>posts={}<span class="hljs-comment">#标题: {日期(列表[年月日]), 分类(列表), 标签(列表), 是否有封面（bool）}</span><br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> os.listdir(os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>)):<br>    <span class="hljs-keyword">if</span> p.endswith(<span class="hljs-string">".md"</span>):<br>        <span class="hljs-keyword">with</span> <span class="hljs-built_in">open</span>(os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p),encoding=<span class="hljs-string">"utf-8"</span>) <span class="hljs-keyword">as</span> f:<br>            lines=f.readlines()<br>            title=p[:-<span class="hljs-number">3</span>]<br>            posts[title]={<span class="hljs-string">"date"</span>:[],<span class="hljs-string">"categories"</span>:[],<span class="hljs-string">"tags"</span>:[],<span class="hljs-string">"cover"</span>:<span class="hljs-literal">False</span>}<br>            date=<span class="hljs-string">""</span><br>            <span class="hljs-keyword">for</span> line <span class="hljs-keyword">in</span> lines:<br>                <span class="hljs-keyword">if</span> line.startswith(<span class="hljs-string">"date: "</span>):<br>                    date=line[<span class="hljs-number">6</span>:<span class="hljs-number">16</span>]<br>                <span class="hljs-keyword">elif</span> line.startswith(<span class="hljs-string">"categories: "</span>):<br>                    posts[title][<span class="hljs-string">"categories"</span>]=line[<span class="hljs-number">12</span>:].strip()[<span class="hljs-number">1</span>:-<span class="hljs-number">1</span>].split(<span class="hljs-string">","</span>)<br>                <span class="hljs-keyword">elif</span> line.startswith(<span class="hljs-string">"tags: "</span>):<br>                    posts[title][<span class="hljs-string">"tags"</span>]=line[<span class="hljs-number">6</span>:].strip()[<span class="hljs-number">1</span>:-<span class="hljs-number">1</span>].split(<span class="hljs-string">","</span>)<br>                <span class="hljs-keyword">elif</span> line.startswith(<span class="hljs-string">"cover: "</span>):<br>                    posts[title][<span class="hljs-string">"cover"</span>]=<span class="hljs-literal">True</span><br>            <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> date:<span class="hljs-comment">#默认文章会没写时间，采用文件创建时间</span><br>                date=<span class="hljs-built_in">str</span>(os.path.getctime(os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p)))[:<span class="hljs-number">10</span>]<br>                date=time.localtime(<span class="hljs-built_in">int</span>(date))<br>                date=time.strftime(<span class="hljs-string">"%Y-%m-%d"</span>,date)<br>            posts[title][<span class="hljs-string">"date"</span>]=[date[:<span class="hljs-number">4</span>],date[<span class="hljs-number">5</span>:<span class="hljs-number">7</span>],date[<span class="hljs-number">8</span>:<span class="hljs-number">10</span>]]<br><br><span class="hljs-comment">#没背景的加一下默认背景，有时候忘加了，毕竟真的太麻烦了...</span><br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> posts:<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p,<span class="hljs-string">f"hexo_bg.png"</span>)):<span class="hljs-comment">#没有背景的</span><br>        bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<br>        <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>            shutil.copy(bg_path,os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p,<span class="hljs-string">"hexo_bg.png"</span>))<br><br><span class="hljs-comment">#archives</span><br>path=os.path.join(TARGET_PATH,<span class="hljs-string">"archives"</span>)<br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> posts:<br>    date=posts[p][<span class="hljs-string">"date"</span>]<br>    raw_path=os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p)<br>    target_path=os.path.join(path,date[<span class="hljs-number">0</span>],date[<span class="hljs-number">1</span>])<br>    <span class="hljs-comment">#背景</span><br>    bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<span class="hljs-comment">#使用默认的，这个不需要用文章的</span><br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">"hexo_bg.png"</span>)):<span class="hljs-comment">#背景图已经有了就跳过</span><br>        <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>            shutil.copy(bg_path,target_path)<br>    <span class="hljs-comment">#头图</span><br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(raw_path):<span class="hljs-comment">#还没对应文件夹</span><br>        os.makedirs(raw_path)<span class="hljs-comment">#帮忙建立，以后会用</span><br>        <span class="hljs-keyword">continue</span><br>    raw_path=os.path.join(raw_path,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(raw_path):<br>        <span class="hljs-built_in">print</span>(<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.md 没有封面图，请记得加上"</span>)<br>        <span class="hljs-keyword">continue</span><br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)):<span class="hljs-comment">#防止重复执行代码重复添加</span><br>        shutil.copy(raw_path,target_path)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">"archives完成"</span>)<br><br><span class="hljs-comment">#categories，具有层级，路径需要按序拼接</span><br>path=os.path.join(TARGET_PATH,<span class="hljs-string">"categories"</span>)<br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> posts:<br>    categories=posts[p][<span class="hljs-string">"categories"</span>]<br>    raw_path=os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)<br>    target_path=path<br>    <span class="hljs-keyword">for</span> c <span class="hljs-keyword">in</span> categories:<br>        target_path=os.path.join(target_path,c)<br>    <span class="hljs-comment">#背景</span><br>    bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">"hexo_bg.png"</span>)):<br>        <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>            shutil.copy(bg_path,target_path)<br>    <span class="hljs-comment">#头图</span><br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(raw_path):<br>        <span class="hljs-keyword">continue</span><br>    <span class="hljs-keyword">if</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)):<br>        <span class="hljs-keyword">continue</span><br>    shutil.copy(raw_path,target_path)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">"categories完成"</span>)<br><br><span class="hljs-comment">#tags，无序，无需按顺序</span><br>path=os.path.join(TARGET_PATH,<span class="hljs-string">"tags"</span>)<br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> posts:<br>    tags=posts[p][<span class="hljs-string">"tags"</span>]<br>    raw_path=os.path.join(RAW_PATH,<span class="hljs-string">"_posts"</span>,p,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)<br>    <span class="hljs-keyword">for</span> t <span class="hljs-keyword">in</span> tags:<br>        target_path=os.path.join(path,t)<br>        <span class="hljs-comment">#背景</span><br>        bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">"hexo_bg.png"</span>)):<br>            <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>                shutil.copy(bg_path,target_path)<br>        <span class="hljs-comment">#头图</span><br>        <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(raw_path):<br>            <span class="hljs-keyword">continue</span><br>        <span class="hljs-keyword">if</span> os.path.exists(os.path.join(target_path,<span class="hljs-string">f"<span class="hljs-subst">{p}</span>.png"</span>)):<br>            <span class="hljs-keyword">continue</span><br>        shutil.copy(raw_path,target_path)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">"tags完成"</span>)<br><br><span class="hljs-comment">#处理没有封面图的，复制默认图，没背景的加一下背景</span><br><span class="hljs-keyword">for</span> p <span class="hljs-keyword">in</span> posts:<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> posts[p][<span class="hljs-string">"cover"</span>]:<span class="hljs-comment">#这个是没头图默认背景图</span><br>        bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<br>        <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>            shutil.copy(bg_path,os.path.join(TARGET_PATH,posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">0</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">1</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">2</span>],p,<span class="hljs-string">"hexo_bg.png"</span>))<br>    <span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> os.path.exists(os.path.join(TARGET_PATH,posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">0</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">1</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">2</span>],p,<span class="hljs-string">"hexo_bg.png"</span>)):<span class="hljs-comment">#这个是没背景加背景图，两个不一样，但是用默认图时候两个都会变成hexo_bg，就不能玩花样了，需要先指定头图才能指定背景，只指定背景会导致头图也变成背景</span><br>        bg_path=os.path.join(RAW_PATH,<span class="hljs-string">"hexo_bg.png"</span>)<br>        <span class="hljs-keyword">if</span> os.path.exists(bg_path):<br>            shutil.copy(bg_path,os.path.join(TARGET_PATH,posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">0</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">1</span>],posts[p][<span class="hljs-string">"date"</span>][<span class="hljs-number">2</span>],p,<span class="hljs-string">"hexo_bg.png"</span>))<br><span class="hljs-built_in">print</span>(<span class="hljs-string">"杂项处理完成"</span>)<br><span class="hljs-built_in">print</span>(<span class="hljs-string">"可以 npm run deploy 上传啦！"</span>)<br></code></pre></td></tr></tbody></table></figure>
+
+<h3><span id="%E5%A6%82%E6%9E%9C%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%88%B0%E5%85%B6%E4%BB%96%E4%BA%BA%E7%9A%84%E8%AF%9D%E6%88%91%E5%BE%88%E5%BC%80%E5%BF%83%E4%B8%8D%E8%BF%87%E7%9B%AE%E5%89%8D%E6%98%AF%E7%BB%99%E6%9C%AA%E6%9D%A5%E7%9A%84%E7%AC%A8%E8%9B%8B%E7%9C%8B%E7%9A%84">如果可以帮到其他人的话我很开心！不过目前是给未来的笨蛋看的…</span></h3><p>一定要记得看上面注释哇，和未来的自己协商一下…统一一下规则</p>
+</body></html>
+	</article>
+
+	 
+    <div class="kira-post-copyright">
+        <strong>本文作者：</strong>de3BDJMH<br>
+        <strong>本文链接：</strong><a href="https://de3bdjmh.github.io/2026/04/08/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E4%BF%AE%E5%A4%8D/" title="https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2026&#x2F;04&#x2F;08&#x2F;个人网站修复&#x2F;" target="_blank" rel="noopener">https:&#x2F;&#x2F;de3bdjmh.github.io&#x2F;2026&#x2F;04&#x2F;08&#x2F;个人网站修复&#x2F;</a><br>
+        
+            <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+        
+    </div>
+
+  
+	<div class="kira-post-nav">
+		<nav class="post-nav">
+			              
+		</nav>
+	</div>
+	
+	<div class="kira-post-meta kira-rainbow">
+		
+		
+			<a class="kirafont icon-tag-fill -none-link" href="/tags/%E7%BD%91%E7%AB%99%E7%BB%B4%E6%8A%A4/" rel="tag">网站维护</a>
+		
+	</div>
+	
+	<div class="kira-post-footer">
+		
+
+		
+	<div class="giscus"></div>
+  
+    <script src="https://giscus.app/client.js"
+      data-repo="de3BDJMH/de3BDJMH.github.io"
+      data-repo-id="R_kgDOLId2TQ"
+      data-category="General"
+      data-category-id="DIC_kwDOLId2Tc4C6R5B"
+      data-mapping="pathname"
+      data-strict="0"
+      data-reactions-enabled="1"
+      data-emit-metadata="0"
+      data-input-position="top"
+      data-theme="light"
+      data-lang="zh-CN"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async  
+    ></script>
+  
+
+	</div>
+	
+</div>
+
+				</div>
+			</div>
+			<div class="kira-right-column">
+	<a onclick="document.querySelector('#kira-top-header').scrollIntoView({behavior: 'smooth'});" class="kira-backtotop" aria-label="回到顶部" title="回到顶部">
+		<button class="mdui-fab mdui-ripple">
+			<i class="kirafont icon-caret-up"></i>
+		</button>
+	</a>
+</div>
+
+		</div>
+	</body>
+</html>
